@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Real-Time Stock Portfolio Tracker</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Real-Time Stock Portfolio Tracker</h1>
+
+    <div class="search-bar">
+      <div class="search-container">
+        <div class="search-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10 2C5.58172 2 2 5.58172 2 10C2 14.4183 5.58172 18 10 18C12.1217 18 14.0666 17.1571 15.4497 15.7578L20.7071 21.0152L21.4142 20.3081L16.1569 15.0507C17.5571 13.6676 18.4 11.7227 18.4 9.6C18.4 5.18172 14.8183 1.6 10.4 1.6H10V2ZM10 4C13.3137 4 16 6.68629 16 10C16 13.3137 13.3137 16 10 16C6.68629 16 4 13.3137 4 10C4 6.68629 6.68629 4 10 4Z" fill="#C0B9C0"/>
+          </svg>
+        </div>
+        <input type="text" id="stockSymbol" class="search-input" placeholder="Enter Company name...">
+        <button id="addStock" class="add-button">Add Stock</button>
+        <div class="glow-effect"></div>
+      </div>
+    </div>
+
+    <div id="stockList" class="stock-list"></div>
+
+    <div class="chart-container">
+      <canvas id="stockChart"></canvas>
+    </div>
+
+    <div id="performanceSummary" class="performance-summary">
+      <button id="stockHistoryButton" class="history-button">Know More About the Company's Stock History</button>
+      <div id="stockHistoryDetails"></div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p>&copy; 2025 All rights reserved to 💚 Shambhu</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
