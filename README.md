@@ -1,19 +1,39 @@
-# Stock Tracker Web App
+# 📈 Stock Tracker Web App
 
 ## 📌 Overview
-This project is a **Stock Tracker Web App** that allows users to track stock prices in real-time. It utilizes the **Alpha Vantage API** to fetch stock data and the **Gemini API** to generate insights and summaries of stock performance. The application features a user-friendly UI, a dynamic stock price chart, and an interactive chatbot for fetching stock-related information.
+The **Stock Tracker Web App** enables users to track real-time stock prices and historical trends. It integrates **Alpha Vantage API** for fetching stock data and **Gemini API** for AI-driven stock insights. The sleek UI features a modern glassmorphism design, dynamic charts, and an interactive chatbot for stock-related queries.
+
+## 📸 Screenshots
+
+### 🔹 Home Page - Adding a Stock
+<img width="1276" alt="Screenshot 2025-02-09 at 6 39 15 PM" src="https://github.com/user-attachments/assets/737cc153-4e3a-4402-afbd-f01c9c0c08f1" />
+
+
+### 🔹 Stock Data Visualization
+<img width="1275" alt="Screenshot 2025-02-09 at 6 39 48 PM" src="https://github.com/user-attachments/assets/2d8d5e7f-9dc7-4e71-81c0-2636e3fb0263" />
+
+
+
+### 🔹 AI-Generated Stock Insights
+<img width="1278" alt="Screenshot 2025-02-09 at 6 40 41 PM" src="https://github.com/user-attachments/assets/326614e1-87f9-464b-a57b-368df2fab67e" />
+
+
+## 🎥 Demo Video
+https://github.com/user-attachments/assets/4e298918-01b3-483f-ba09-2c7d0a2058e9
+
+
 
 ## 🚀 Features
-- **Live Stock Tracking**: Fetches real-time stock data using Alpha Vantage API.
-- **Historical Data Analysis**: Users can request summaries of stock performance.
-- **AI Chatbot Integration**: Uses Gemini API to answer stock-related queries.
-- **Dynamic Chart Representation**: Displays stock price trends in an interactive chart.
-- **Responsive & Stylish UI**: Includes glassmorphism and neon glow effects for modern aesthetics.
+- **Live Stock Tracking** using the **Alpha Vantage API**.
+- **Historical Data Analysis** with AI-generated insights.
+- **AI Chatbot Integration** powered by **Gemini API**.
+- **Interactive Chart Representation** of stock price trends.
+- **Responsive UI with Neon Glow & Glassmorphism effects**.
 
 ## 🛠️ Technologies Used
-- **Frontend**: HTML, CSS (Glassmorphism UI), JavaScript
+- **Frontend**: HTML, CSS, JavaScript (Glassmorphism UI)
 - **APIs**: Alpha Vantage (Stock Data), Gemini API (AI-based Insights)
-- **Chart.js**: For dynamic stock trend visualization
+- **Chart.js**: For stock trend visualization
 
 ## 📦 Setup & Installation
 1. Clone the repository:
