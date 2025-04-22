@@ -7,6 +7,7 @@ The **Stock Tracker Web App** enables users to track real-time stock prices and 
 
 ### 🔹 Home Page - Adding a Stock
 <img width="1276" alt="Screenshot 2025-02-09 at 6 39 15 PM" src="https://github.com/user-attachments/assets/737cc153-4e3a-4402-afbd-f01c9c0c08f1" />
+<img width="1278" alt="Screenshot 2025-04-22 at 4 09 54 PM" src="https://github.com/user-attachments/assets/afc1b707-98c1-415d-823d-dbca96444899" />
 
 
 ### 🔹 Stock Data Visualization
